@@ -35,6 +35,7 @@ resource "aws_security_group" "allow_tls" {
     cidr_blocks      = ["0.0.0.0/0"] #Allow HTTPS access from any IP address
   }
 
+
   ingress {
     description      = "Allow port 80"
     from_port        = 80
