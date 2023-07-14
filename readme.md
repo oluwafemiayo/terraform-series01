@@ -47,39 +47,39 @@ AWS CLI configured with appropriate credentials and permissions
 
 Clone the repository:
 
-'''
+```
 git clone <repository_url>
-'''
+```
 Change into the project directory:
 
-'''
+```
 cd <project_directory>
-'''
+```
 
 Update the necessary variables in the variables.tfvars file based on your requirements.
 Initialize Terraform:
 
-'''
+```
 terraform init
-'''
+```
 
 Review the execution plan:
 
-'''
-terraform plan -var-file=variables.tfvars
-'''
+```
+terraform plan -var-file=terraform.tfvars
+```
 
 Apply the Terraform configuration to provision the infrastructure:
 
-'''
-terraform apply -var-file=variables.tfvars
-'''
+```
+terraform apply -var-file=terraform.tfvars
+```
 
 When you're finished, you can destroy the infrastructure:
 
-'''
-terraform destroy -var-file=variables.tfvars
-'''
+```
+terraform destroy -var-file=terraform.tfvars
+```
 
 ### Variables
 
