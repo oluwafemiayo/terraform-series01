@@ -38,13 +38,13 @@ variable "ec2_instance_count" {
 variable "remote_vpc_id" {
   description = "Remote VPC ID" #Fetched from within already created VPC
   type        = string
-  default     = "vpc-0fd2cbd656f3e8d5a"
+  default     = "vpc-0*a"
 
 }
 
 variable "remote_subnet_id" {
   description = "Remote Subnet ID" #Fetched from within already created VPC
   type        = string
-  default     = "subnet-0d1bdc43245e7369e"
+  default     = "subnet-0*e"
 
 }
