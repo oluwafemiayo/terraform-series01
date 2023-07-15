@@ -16,7 +16,8 @@ Contributing
 License
 ### Project Structure
 
-![alt text](project-structure.jpeg)
+![project-structure](https://github.com/oluwafemiayo/terraform-series01/assets/115284052/b8c25f49-2c24-4d5a-9770-276ddff22855)
+
 ### Description
 
 This project contains Terraform configuration files for managing infrastructure resources using modules. It provides infrastructure-as-code templates to provision and manage EC2 instances and security groups for both Linux and Windows environments.
