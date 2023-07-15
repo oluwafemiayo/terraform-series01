@@ -16,21 +16,7 @@ Contributing
 License
 ### Project Structure
 
-├── Introduction
-├── main.tf
-├── readme.md
-├── resources
-│   ├── ec2_linux.tf
-│   ├── ec2_windows.tf
-│   ├── linux_sg.tf
-│   ├── providers.tf
-│   └── windows_sg.tf
-└── variables
-    ├── linux.tfvars
-    ├── terraform.tfvars
-    ├── variables.tf
-    └── windows.tfvars
-
+![alt text](project-structure.jpeg)
 ### Description
 
 This project contains Terraform configuration files for managing infrastructure resources using modules. It provides infrastructure-as-code templates to provision and manage EC2 instances and security groups for both Linux and Windows environments.
